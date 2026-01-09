@@ -1,0 +1,203 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", sans-serif;
+}
+
+
+body {
+    background-color: #f5f7fb;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    color: #fff;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+ 
+
+    
+}
+
+header h1 {
+    font-size: 28px;
+    text-align: center;
+}
+
+header p {
+    font-size: 14px;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 6px 10px;
+    transition: 0.3s;
+}
+.navbar{
+    width: fit-content;
+    margin-left: auto;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+}
+
+/* Sections */
+section {
+    padding: 60px 10%;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #1e3c72;
+}
+
+section p {
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-align: center;
+     
+   
+    
+}
+
+
+#home {
+    text-align: center;
+    background: #fff;
+    border-radius: 12px;
+    margin: 40px 10%;
+    padding: 60px 40px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+}
+
+
+
+.flex-box {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.item {
+    background: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.item {
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(1.03);
+}
+
+.item h3 {
+    margin-top: 15px;
+    color: #2a5298;
+}
+
+.item p {
+    font-size: 14px;
+}
+
+
+#features ul {
+    list-style: none;
+    margin-top: 20px;
+}
+
+#features li {
+    background: #fff;
+    margin-bottom: 10px;
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+#features li:hover {
+    background: #e3f2fd;
+}
+#projects p{
+  
+   text-align: left;
+}
+#about p{
+  
+   text-align: left;
+}
+#contact p{
+  
+   text-align: left;
+}
+
+#contact address {
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    max-width: 400px;
+}
+
+
+footer {
+    text-align: center;
+    background: #1e3c72;
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+
+@media (max-width: 768px) {
+    .flex-box {
+        justify-content: center;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
